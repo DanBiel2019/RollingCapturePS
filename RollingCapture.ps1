@@ -52,7 +52,7 @@ function Start-RollingPacketTrace {
             New-Item -Path 'C:\temp' -ItemType Directory
         }
         
-        #start an infinite loop -- knowing this has to be killed through task manager
+        #start an infinite loop -- knowing this has to be killed through task manager!
         while ($true) {
         $timeNow = Get-Date
         $parentDir = "c:\temp"
